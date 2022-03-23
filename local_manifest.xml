@@ -35,7 +35,7 @@
 
         <!-- replacements -->
 	<project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LOS" revision="lineage-19.0" />
-        <project path=""packages_apps_Settings" name="ritvik-ch/packages_apps_Settings" remote="github" revision="sailboat"
+        <project path="packages_apps_Settings" name="ritvik-ch/packages_apps_Settings" remote="github" revision="sailboat"
 
 	<!-- Hals -->
 
