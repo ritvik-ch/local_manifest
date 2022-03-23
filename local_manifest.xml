@@ -2,9 +2,9 @@
 
 <manifest>
 
-	<!-- Remotes -->	<remote  name="Gitlab"
-
-	 	 fetch="https://gitlab.com/" />
+	<!-- Remotes -->	
+        <remote  name="Gitlab"
+          fetch="https://gitlab.com/" />
 
 	<!-- Cosmic-Clang v14.0.0 Toolchain -->
 
