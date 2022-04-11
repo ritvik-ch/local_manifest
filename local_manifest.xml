@@ -37,6 +37,6 @@
 
    <!-- Sepolicy -->
    <remove-project name="device_qcom_sepolicy-legacy-um" />
-   <project path="device/qcom/sepolicy-legacy-um" name="ritvik-ch/android_device_qcom_sepolicy" remote="github" revision="pixys-12" />  
+   <project path="device/qcom/sepolicy-legacy-um" name="ritvik-ch/android_device_qcom_sepolicy-legacy-um" remote="github" revision="pixys-12" />  
 
 </manifest>
