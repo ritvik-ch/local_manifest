@@ -25,9 +25,9 @@
 
   <!-- Remove Hals -->
   <remove-project name="hardware_qcom-caf_wlan" />
-  <remove-project name="hardware_qcom-caf_msm8996_audio" />
-  <remove-project name="hardware_qcom-caf_msm8996_display" />
-  <remove-project name="hardware_qcom-caf_msm8996_media" />
+  <remove-project name="hardware_qcom_audio" />
+  <remove-project name="hardware_qcom_display" />
+  <remove-project name="hardware_qcom_media" />
 
   <!-- Add Hals -->
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="AddyGod" revision="twelve" />
