@@ -35,9 +35,6 @@
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
 
-   <!-- remove -->
-   <remove-project name="platform_packages_resources_devicesettings" />
-     
    <!-- Sepolicy -->
    <remove-project name="device_qcom_sepolicy-legacy-um" />
    <project path="device/qcom/sepolicy-legacy-um" name="ritvik-ch/android_device_qcom_sepolicy" remote="github" revision="12" />  
