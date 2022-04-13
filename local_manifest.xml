@@ -14,6 +14,8 @@
           fetch="https://github.com/adnan-44" />
   <remote name="PE"
           fetch="https://github.com/PixelExperience" />
+  <remote name="Cipher"
+          fetch="https://github.com/CipherOS" />
 
   <!-- Trees -->
   <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Ritvik" revision="lighthouse-12" />
@@ -45,5 +47,9 @@
    <!-- Sepolicy -->
    <remove-project name="device_qcom_sepolicy-legacy-um" />
    <project path="device/qcom/sepolicy-legacy-um" name="ritvik-ch/android_device_qcom_sepolicy" remote="github" revision="12" />  
+
+   <!-- Framework -->
+   <remove-project name="android_frameworks_opt_telephony" />
+   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Cipher" revision="twelve-L" />
 
 </manifest>
