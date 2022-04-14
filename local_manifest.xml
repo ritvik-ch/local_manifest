@@ -39,10 +39,10 @@
 
    <!-- Sepolicy -->
    <remove-project name="device_qcom_sepolicy-legacy-um" />
-   <project path="device/qcom/sepolicy-legacy-um" name="ritvik-ch/android_device_qcom_sepolicy-legacy-um" remote="Ritvik" revision="pixys-12" />  
+   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Ritvik" revision="pixys-12" />  
 
    <!-- Framework -->
-   <remove-project name="android_frameworks_opt_telephony" />
+   <remove-project name="frameworks_opt_telephony" />
    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Adi" revision="twelve-L" />
 
 
