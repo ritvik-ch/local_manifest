@@ -17,6 +17,9 @@
   <remote name="Adi"
           fetch="https://github.com/ItsAdityan" />
 
+  <remote name="Lineage"
+          fetch="https://github.com/LineageOS" />
+
   <!-- Trees -->
   <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Ritvik" revision="lighthouse-12" />
   <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Ritvik" revision="12" />
@@ -45,5 +48,7 @@
    <remove-project name="frameworks_opt_telephony" />
    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Adi" revision="twelve-L" />
 
+   <!-- Clone stuffs -->
+   <project path="packages/apps/devicesettings" name="android_packages_resources_devicesettings" remote="Lineage" revision="lineage-18.1" />
 
 </manifest>
