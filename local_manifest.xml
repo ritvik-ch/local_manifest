@@ -49,6 +49,6 @@
    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Adi" revision="twelve-L" />
 
    <!-- Clone stuffs -->
-   <project path="packages/apps/devicesettings" name="android_packages_resources_devicesettings" remote="Lineage" revision="lineage-18.1" />
+   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="Lineage" revision="lineage-19.0" />
 
 </manifest>
