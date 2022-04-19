@@ -18,7 +18,7 @@
           fetch="https://github.com/ItsAdityan" />
 
   <!-- Trees -->
-  <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Ritvik" revision="pixys-12" />
+  <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Ritvik" revision="lighthouse-12" />
   <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Ritvik" revision="12" />
   <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" />
 
@@ -39,7 +39,7 @@
 
    <!-- Sepolicy -->
    <remove-project name="device_qcom_sepolicy-legacy-um" />
-   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Ritvik" revision="pixys-12" />  
+   <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Ritvik" revision="lighthouse-12" />  
 
    <!-- Framework -->
    <remove-project name="frameworks_opt_telephony" />
