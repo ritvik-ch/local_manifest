@@ -46,7 +46,7 @@
    <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Ritvik" revision="lighthouse-12" />  
 
    <!-- Framework -->
-   <remove-project name="android_frameworks_opt_telephony" />
+   <remove-project name="platform_frameworks_opt_telephony" />
    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Adi" revision="twelve-L" />
 
    <!-- Clone stuffs -->
