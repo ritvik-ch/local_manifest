@@ -29,11 +29,10 @@
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" revision="master" />
 
   <!-- Remove Hals -->
-  <remove-project name="platform/hardware/qcom/wlan" />.
-  <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/media" />
-
+  <remove-project name="android_hardware_qcom_wlan" />.
+  <remove-project name="android_hardware_qcom_audio" />
+  <remove-project name="android_hardware_qcom_display" />
+  <remove-project name="android_hardware_qcom_media" />
 
   <!-- Add Hals -->
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="AddyGod" revision="twelve" />
