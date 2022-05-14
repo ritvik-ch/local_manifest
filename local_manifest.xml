@@ -16,40 +16,31 @@
           fetch="https://github.com/PixelExperience" />
   <remote name="Adi"
           fetch="https://github.com/ItsAdityan" />
+  <remote name="Dot"
+          fetch="https://github.com/DotOS" />
 
   <!-- Trees -->
-  <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Ritvik" revision="lighthouse-12" />
-  <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Ritvik" revision="lighthouse-12" />
+  <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Ritvik" revision="dot-12.x" />
+  <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Ritvik" revision="12" />
   <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" />
 
   <!-- Cosmic-clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-cosmic" name="cosmic-clang" remote="cosmic" revision="master" />
 
   <!-- Remove Hals -->
-  <remove-project name="android_hardware_qcom_wlan" />
-  <remove-project name="android_hardware_qcom_audio" />
-  <remove-project name="android_hardware_qcom_display" />
-  <remove-project name="android_hardware_qcom_media" />
+  <remove-project name="android_hardware_qcom-caf_wlan" />
+  <remove-project name="android_hardware_qcom-caf_msm8996_audio" />
+  <remove-project name="android_hardware_qcom-caf_msm8996_display" />
+  <remove-project name="android_hardware_qcom-caf_msm8996_media" />
 
   <!-- Add Hals -->
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="AddyGod" revision="twelve" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="PE" revision="twelve" />
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="PE" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
 
    <!-- Framework -->
-   <remove-project name="android_frameworks_opt_telephony" />
-   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Ritvik" revision="twelve-L" />
-
-   <!-- remove -->
-   <remove-project name="platform_packages_resources_devicesettings" />
-     
-   <!-- Sepolicy -->
-   <remove-project name="device_qcom_sepolicy-legacy-um" />
-   <project path="device/qcom/sepolicy-legacy-um" name="ritvik-ch/android_device_qcom_sepolicy" remote="github" revision="12" />  
-
-   <!-- Framework -->
-   <remove-project name="android_frameworks_opt_telephony" />
+   <remove-project name="frameworks_opt_telephony" />
    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Adi" revision="twelve-L" />
 
 </manifest>
