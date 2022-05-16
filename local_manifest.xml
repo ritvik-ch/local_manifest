@@ -41,4 +41,7 @@
    <remove-project name="frameworks_opt_telephony" />
    <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="Ritvik" revision="twelve-L" />
 
+   <!-- Packages -->
+   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="PE" revision="twelve" />
+
 </manifest>
