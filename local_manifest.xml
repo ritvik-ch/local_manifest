@@ -2,7 +2,6 @@
 <manifest>
 
   <!-- Remotes -->
-
   <remote name="Ritvik"
           fetch="https://github.com/ritvik-ch" />
   <remote name="Uni"
