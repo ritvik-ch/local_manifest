@@ -1,4 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
   <!-- Remotes -->
+
   <remote name="Ritvik"
           fetch="https://github.com/ritvik-ch" />
   <remote name="Uni"
