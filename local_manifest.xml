@@ -20,7 +20,7 @@
           fetch="https://github.com/anandhan07" />
 
   <!-- Trees -->
-  <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Ritvik" revision="test" />
+  <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Ritvik" revision="voltage-12.1" />
   <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Ritvik" revision="12" />
   <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" />
 
