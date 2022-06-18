@@ -18,12 +18,13 @@
           fetch="https://github.com/ItsAdityan" />
   <remote name="Anandhan"
           fetch="https://github.com/anandhan07" />
-
+  <remote name="Ritvik-ch"
+          fetch="https://github.com/ritvik-ch" />
 
   <!-- Trees -->
   <project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="Ritvik" revision="los" />
   <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common" remote="Ritvik" revision="lineage-19.1" />
-  <project path="vendor/xiaomi" name="android_vendor_xiaomi_vince" remote="Ritvik" revision="lineage-19.1" />
+  <project path="vendor/xiaomi" name="android_vendor_xiaomi_vince" remote="Ritvik-ch" revision="lineage-19.1" />
   <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="Uni" revision="12" />
 
   <!-- Cosmic-clang -->
