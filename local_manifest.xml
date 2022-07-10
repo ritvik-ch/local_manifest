@@ -24,7 +24,7 @@
   <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Ritvik" revision="12" clone-depth="1" />
   <project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince-4.9" remote="Ryuzenn" revision="VinceR" clone-depth="1" />
 
-  <!-- Cosmic-clang -->
-  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1" />
+  <!-- proton-clang -->
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" />
 
 </manifest>
