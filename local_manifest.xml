@@ -22,6 +22,6 @@
   <!-- Trees -->
   <project path="device/xiaomi/vince" name="device_xiaomi_vince1" remote="Ritvik" revision="voltage-12.1" clone-depth="1" />
   <project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="Ritvik" revision="12" clone-depth="1" />
-  <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="blacksuan" revision="darky " clone-depth="1" />
+  <project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="blacksuan" revision="darky" clone-depth="1" />
 
 </manifest>
